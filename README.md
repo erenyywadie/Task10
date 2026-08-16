@@ -1,27 +1,110 @@
-# Taskify - Team Task Management System
-Project Description
-Taskify is a full-stack web application designed to help project teams organize, track, and manage their daily tasks efficiently. The platform allows team managers to assign tasks, set deadlines, and monitor completion status, while team members can update their progress and upload necessary attachments and project files.
-Target Users: Project Managers, Team Leaders, and Team Members.
-Main Purpose: Streamlining task allocation, workflow tracking, and file sharing within project teams.
-User Roles and Permissions
-Admin / Manager: Manage users, create new tasks, assign tasks to members, edit or delete any task, and view overall dashboard analytics.
-Team Member: View assigned tasks, update task status (Pending, In Progress, Completed), upload task attachments, and edit personal profile.
-Main Features List
-Authentication Features
-User Registration (Sign Up)
-User Login (Sign In)
-Email Verification and Password Reset
-Authorization Features
-Admin Dashboard
-Role-Based Access Control (RBAC)
-Protected Routes (Restricting access based on user roles)
-CRUD Operations (Task Management)
-Create: Add new tasks with title, description, due date, and assignee.
-Read: View task lists, search tasks, and view detailed task info.
-Update: Edit task details, reassign members, or change task status.
-Delete: Remove tasks from the system.
-File and Image Upload Features
-User Profile Image: Allowed formats JPG, PNG with Max Size 2 MB. Uploaded by All Users.
-Task Attachments and Docs: Allowed formats JPG, PNG, PDF with Max Size 10 MB. Uploaded by All Users.
-Ui design prototype 
-canva prototype link:https://canva.link/2uuwho3z14uqxa4
+# 📚 Stackly — Book Library Management System
+
+> A web application built to make browsing and managing a library's collection simple and accessible online.
+
+---
+
+## 📖 Project Description
+
+The Book Library System is a web application designed to make it easier for users to browse and manage books online.
+
+Users can create an account, log in, explore the available books, and view detailed information about each title. Administrators are granted extended permissions to manage the book catalog and oversee registered users.
+
+The goal of this project is to provide an organized, easy-to-use platform for running a digital library — from the reader's first search to the administrator's day-to-day catalog management.
+
+---
+
+## 👥 Target Users
+
+The system is designed around two primary user roles:
+
+### 🛡️ Admin
+Responsible for managing the library and its data.
+
+| Permissions |
+|---|
+| Add new books |
+| View books |
+| Edit book information |
+| Delete books |
+| Manage users |
+| Access the admin dashboard |
+
+### 👤 User
+Can browse and interact with the available books.
+
+| Permissions |
+|---|
+| Register and log in |
+| View available books |
+| View book details |
+| Manage their profile |
+| View their borrowing history |
+
+---
+
+## ✨ Main Features
+
+### 🔐 Authentication
+- User registration
+- User login
+- User logout
+- Password protection
+- User profile management
+
+### 🛂 Authorization
+Access is governed by role-based permissions:
+- **Admin** — full access to management features
+- **Regular Users** — access limited to browsing and profile features
+- **Protected Features** — sensitive actions restricted to authorized roles only
+
+### 🔄 CRUD Operations
+The core resource in the system is the **Book**:
+
+| Operation | Description |
+|---|---|
+| **Create** | Add a new book |
+| **Read** | View all books · View book details |
+| **Update** | Edit book information |
+| **Delete** | Delete a book |
+
+### 📕 Book Management
+Each book record includes:
+
+- Title
+- Author
+- Category
+- Price
+- Description
+- Cover Image
+
+### 🖼️ Image / File Upload
+
+| Allowed Types | Max Size | Uploaded By |
+|---|---|---|
+| JPG, JPEG, PNG | 5 MB | Admin (when adding or editing a book) |
+
+---
+
+## 🗺️ Main Pages
+
+1. Login Page
+2. Register Page
+3. Home / Books Page
+4. Book Details Page
+5. Admin Dashboard
+6. Add Book Page
+7. Edit Book Page
+8. User Profile Page
+
+---
+
+## 🎨 UI Design
+
+The interface design was created in Canva and covers the system's main screens — sign in, register, the books page, book details, the admin dashboard, the add/edit book pages, and the user profile.
+
+**Canva Design:** [View UI Design](https://canva.link/6juu9576kwy8vn0)
+
+---
+
+## 🏗️ Project Structure
